@@ -1,0 +1,180 @@
+﻿.Letter
+{
+    float:left;
+    width:100%;
+}
+.Letter fieldset
+{
+    max-width:30%;
+    float:left;
+    margin-right:1%;
+}
+.LetterItem
+{
+    float: left;
+    background-color: #F0F0F0;
+    margin: 1px 0 2px 0;
+    width: 100%;
+}
+
+.Letter div.Title
+{
+    padding: 0;
+    float:left;
+    margin: 5px 0;
+    background: url("../Images/Icons/Bullet_4.png") no-repeat left center;
+    width:100%;
+}
+.Letter div.Title span
+{
+    float:left;
+    padding: 3px 0 0 10px;
+    max-width:250px;
+    text-align:justify;
+    clear:both;
+}
+.Letter div span label
+{
+    color:Red;
+}
+.Letter div.Title img
+{
+    display: inline-block;
+    margin-left: 3px;
+    cursor: pointer;
+    float:right;
+    vertical-align:top;
+}
+.Letter p.Content
+{
+    padding: 0;
+    display: block;
+    margin: 5px 0;
+}
+.Letter p.Content span
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0 0 10px;
+    text-align: justify;
+}
+
+.InsertLetter
+{
+    float:left;
+    width:500px;
+    padding:10px;
+}
+.InsertLetter div.Item
+{
+    float:left;
+    width:100%;
+    margin:0px;
+    padding:2px 0 2px 0;
+}
+.InsertLetter div.Item span
+{
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+}
+.InsertLetter div.Item select
+{
+    float:none;
+}
+.InsertLetter div.Item input, textarea
+{
+    width: 390px;
+    display: inline-block;
+    float: none;
+}
+.InsertLetter div.Item textarea
+{
+    height:100px;
+    resize: none;
+}
+
+.InsertLetter div.ItemButton
+{
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.InsertLetter div.InsertTitle
+{
+    float:left;
+    width:100%;
+    padding:5px 0 10px 0;
+    font-weight:bold;
+    color:Red;
+    text-align:center;
+}
+
+/*// View detail //////////////////////////////////////*/
+
+.view_vlive
+{
+    width:900px;
+    height:auto;
+    float:left;
+}
+.view_item
+{
+    padding-bottom:10px;
+}
+.view_item .view_letter
+{
+    
+}
+
+.view_item .view_letter div.title label, .view_item .view_letter div.push_time label
+{
+    display:inline-block;
+    width:130px;
+    padding-bottom:5px;
+}
+.view_item .view_letter div.push_time
+{
+    
+}
+.view_item .view_record div.parent
+{
+    display:inline-block;
+    width:60%;
+}
+
+.view_item .view_record div.child
+{
+    display:inline-block;
+    width:38%;
+    float:right;
+}
+.view_item .view_record .record_item
+{
+    
+    padding-bottom:10px;
+    background: url("../Images/Icons/Bullet_4.png") no-repeat left 2px;
+    padding-left:10px;
+}
+.view_item .view_record .record_item p
+{
+    margin:0px;
+    padding:2px 0 3px 0;
+    text-align:justify;
+}
+
+.view_item .view_record .record_item label
+{
+    color:Red;
+}
+
+
+
+
+
+
+
+
+

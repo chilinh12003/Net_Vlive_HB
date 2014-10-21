@@ -1,0 +1,1 @@
+<BeforeTheClickMessage><MessageTimestamp>{0}</MessageTimestamp><RegularBTCMessage><Index>{1}</Index><Content>{2}</Content><Menu>{3}</Menu></RegularBTCMessage></BeforeTheClickMessage>

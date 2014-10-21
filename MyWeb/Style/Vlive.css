@@ -1,0 +1,348 @@
+﻿body
+{
+	width: 100%;
+	margin: 0px auto;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	padding:0px;
+    min-width:980px;
+    background:url("../images/design/body_bg_1.png") repeat-x left top;
+    background-color:#E3E4E5;
+}
+.footer_out
+{
+    float:left;
+    width:100%;
+    background-color:#ffffff;
+}
+.footer
+{
+    float:left;
+    width:100%;
+    height:91px;
+    background:url("../images/design/footer_bg.png") repeat-x left top;
+    background-color:#EDEDED;
+    margin-top:20px;
+    padding-top:26px;
+}
+.footer .footer-center
+{
+    float: left;
+    padding-left: 108px;
+    text-align: center;
+    width: 750px;
+    padding-top: 20px;
+}
+.footer-center ul {
+    list-style: none outside none;
+    margin: 0 0 0 100px;
+    padding: 0;
+}
+.footer-center ul li {
+    border-right: 1px solid #999999;
+    float: left;
+    font-weight: 700;
+    line-height: 1em;
+    padding: 0 5px;
+}
+.footer-center ul li a
+{
+    font-weight:bold;
+    font-size:12px;
+}
+.footer-center ul li a:hover
+{
+    color:#01AEFD;
+}
+
+.footer-center ul li.last
+{
+    border:none;
+}
+.footer .address
+{
+    font-size: 11px;
+    line-height: 1.5em;
+    font-weight: normal;
+    padding-top:10px;
+}
+
+.footer div.copyright
+{
+    display:inline-block;
+    padding:0px;
+    vertical-align:top;
+    padding-top:20px;
+    padding-left:40px;
+
+}
+.footer div.copyright p
+{
+    color:#ffffff;
+}
+.auction
+{
+    margin:0 auto;
+    width:980px;
+    
+}
+.banner
+{
+    float:left;
+    width:100%;
+    height:119px;
+    position:relative;
+}
+
+.banner div.search
+{
+    float:left;
+    background:url("../images/design/tbx_search_l.png") no-repeat left top;
+    padding-left:12px;
+}
+.banner div.search input[type=text]
+{
+    float:left;
+    background:url("../images/design/tbx_search_c.png") repeat-x left top;
+    border:none;
+    margin:0px;
+    padding:0px;
+    height:22px;
+    width:100px;
+}
+.banner div.search input[type=submit]
+{
+    float: left;
+    background: url("../images/design/btn_search.png") no-repeat left top;
+    width: 28px;
+    height: 22px;
+    border:none;
+}
+
+.logo
+{
+    float:left;
+}
+.logodg
+{
+    float:right;
+}
+.login_box
+{
+    float:right;
+    padding-top:10px;
+}
+.login_frame_l
+{
+    float: left;
+    padding-left: 7px;
+    height: 99px;
+    background: url("../images/design/login_box_l.png") no-repeat left top;
+}
+.login_frame_c
+{
+    float: left;
+    height: inherit;
+    background: url("../images/design/login_box_c.png") repeat-x left top;
+}
+.login_frame_r
+{
+    float: left;
+    padding-right: 7px;
+    height: inherit;
+    background: url("../images/design/login_box_r.png") no-repeat right top;
+}
+.login
+{
+    float:left;
+}
+.login p
+{
+    margin:10px 5px 0 5px;
+    text-align:center;
+}
+.login p input[type=text], input[type=password]
+{
+    width: 100px;
+    margin-right: 10px;
+}
+.login p a
+{
+   
+}
+.login p.lose a
+{
+    color: #288CCE;
+}
+
+.logout p
+{
+    margin:10px 5px 0 5px;
+    text-align:center;
+}
+.logout p.hello a
+{
+    color: #288CCE;
+}
+.logout p.Balance a
+{
+    color:Red;
+}
+.logout p.manager
+{
+      margin:5px 5px 0 5px;
+}
+.logout p.manager a
+{
+    color:Red;
+}
+.menu
+{
+    float:left;
+    width:100%;
+    height:41px;
+    background:url("../images/design/menu_bg.png") repeat-x left top;
+    font-size:13px;
+ 
+}
+.menu div.left
+{
+    float:left;
+    height:41px;
+    width:20px;
+}
+.menu a.item
+{
+    float: left;
+    background: url("../images/design/menu_split.png") no-repeat right top;
+}
+.menu a.last
+{
+    float: left;
+    background: none;
+}
+.menu a.item span
+{
+    float: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 14px 20px 0px 20px;
+    height:27px;
+    font-weight:bold;
+    
+}
+.menu a.item:hover
+{
+    background:url("../images/design/menu_active_r.png") no-repeat right top;
+}
+.menu a.item:hover span
+{
+    background:url("../images/design/menu_active_l.png") no-repeat left top;
+    color:#0399CE;
+}
+.menu a.active
+{
+    float: left;
+    background: url("../images/design/menu_active_r.png") no-repeat right top;
+}
+.menu a.active span
+{
+    background: url("../images/design/menu_active_l.png") no-repeat left top;
+    float: left;
+    text-transform: uppercase;
+    padding: 14px 16px 0px 16px;
+    height: 27px;
+    color: #0399CE;
+    font-weight:bold;
+    
+}
+.detail
+{
+    padding:20px 10% 20px 10%;
+    float:left;
+    width:80%;
+    background-color:#ffffff;
+   
+}
+.detail .title
+{
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+}
+.detail .content
+{
+    text-align:justify;
+    line-height:20px;
+    font-size:14px;
+}
+.detail .content p.padleft
+{
+    padding-left:10px;
+}
+.winner
+{
+    float:left;
+    width:99.6%;
+    background-color:#ffffff;
+    padding:2px 0.2% 2px 0.2%;
+}
+.winner_repeat
+{
+    float:left;
+    width:99%;
+    
+    padding-left: 1%;
+    padding:5px 0.5% 5px 0.5%;
+}
+
+.winner_repeat table
+{
+    border-style: solid solid none solid;
+    border-width: 1px;
+    border-color: #D4E4D7;
+    width: 100%;
+}
+.winner_repeat table tr
+{
+    border-style: solid none solid none;
+    border-width: 1px;
+    border-color: #FFFFFF #D4E4D7 #D4E4D7 #D4E4D7;
+}
+.winner_repeat table tr th
+{
+    text-align:center;
+    background-color:#CBD7ED;
+     border-style: solid none solid none;
+    border-width: 1px;
+    border-color: #FFFFFF #D4E4D7 #D4E4D7 #D4E4D7;
+    color:#0D56AA;
+    padding:5px;
+}
+.winner_repeat table tr td
+{
+    text-align:center;
+    background-color:#F3F6FB;
+     border-style: solid none solid none;
+    border-width: 1px;
+    border-color: #FFFFFF #D4E4D7 #D4E4D7 #D4E4D7;
+    padding:5px;
+}
+.product_detail
+{
+    float:left;
+    width:700px;
+    height:auto;
+    padding:5px;
+    background-color:#FFFFFF;
+}
+.product_detail_1
+{
+    float:left;
+    padding:5px;
+    background-color:#FFFFFF;
+}
+
+
+
+

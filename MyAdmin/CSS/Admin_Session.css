@@ -1,0 +1,25 @@
+﻿.ProductSelected
+{
+    float: left;
+}
+.ProductSelected a
+{
+    float: left;
+    font-weight: bold;
+    color: Red;
+}
+.ProductSelected div.result
+{
+    float: left;
+    font-weight: bold;
+    color: Red;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.ProductSelected div.alert
+{
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}

@@ -1,0 +1,141 @@
+﻿
+.vinaphone_menu
+{
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+.top-menu-container
+{
+    background: url("../images/design/top-menu-left.png") no-repeat scroll left center transparent;
+    float: right;
+}
+.top-menu-container .right_1
+{
+    background: url("../images/design/top-menu-right.png") no-repeat scroll right center transparent;
+    margin-left: 6px;
+    padding-left: 4px;
+    padding-right: 10px;
+    float:left;
+    padding-bottom:7px;
+}
+.top-menu-container ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.top-menu-container ul li {
+    border-right: 1px solid #2E85AE;
+    float: left;
+    line-height: 1em;
+    list-style: none outside none;
+    margin: 5px 0;
+    padding: 0 10px;
+}
+.top-menu-container ul li.first {
+    padding-left: 0;
+}
+.top-menu-container ul li.last {
+    border: 0 none;
+    padding-right: 0;
+}
+.top-menu-container ul li.more
+{
+    background: url("../images/design/top-more.png") no-repeat scroll right center transparent;
+    padding-right: 12px;
+}
+.top-menu-container ul li ul {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: none;
+    margin-top: 1px;
+    opacity: 0.8;
+    position: absolute;
+    width: 10em;
+    z-index: 10;
+}
+.top-menu-container ul li:hover ul {
+    display: block;
+}
+.top-menu-container ul li ul li {
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 0 none;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0 0 0 10px;
+    width: 92%;
+}
+.top-menu-container ul li a {
+    color: #00A1DE;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.top-menu-container ul li a:hover, .top-menu-container ul li a:active, .top-menu-container ul li a:focus {
+    color: #666666;
+}
+.top-menu-container ul.user-menu {
+    margin-left: 30px;
+}
+.top-menu-container ul.user-menu li {
+    border-right: 1px solid #666666;
+}
+.top-menu-container ul.user-menu li.last {
+    border-right: 0 none;
+}
+.top-menu-container ul.user-menu li a {
+    color: #666666;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+}
+.top-menu-container ul.user-menu li a:hover, .top-menu-container ul.user-menu li a:active, .top-menu-container ul.user-menu li a:focus {
+    color: #2E85AE;
+}
+.search-box {
+    position: absolute;
+    right: 7px;
+    top: 80px;
+}
+.search-box form {
+    background: url("../images/design/search-box-bg.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+}
+.search-box select {
+    background: none repeat scroll 0 center transparent;
+    border: 0 none;
+    color: #036CAA;
+    font-family: Times New Roman,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.customStyleSelectBoxInner {
+    background: url("../images/arrow-search.png") no-repeat scroll right center transparent;
+    color: #036CAA;
+    font-family: Times New Roman,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 5px;
+    width: 21px !important;
+}
+.search-box input.search-input {
+    background: none repeat scroll 0 center transparent;
+    border: 0 none;
+    color: #999999;
+    font-size: 11px;
+    height: 18px;
+    padding: 0 0 0 9px;
+    width: 160px;
+}
+.search-box input.search-submit {
+    background: url("../images/search-submit.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 20px;
+    padding: 0;
+    text-indent: -999px;
+    width: 37px;
+}

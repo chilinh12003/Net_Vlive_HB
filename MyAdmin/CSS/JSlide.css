@@ -1,0 +1,60 @@
+﻿.Slide
+{
+    margin:0 auto;
+    width:76%;
+}
+.Slide a.Next
+{
+    float:left;
+    width:1%;
+    height:150px;
+    background-color:Red;
+}
+.Slide a.Prev
+{
+    float:left;
+    width:1%;
+    height:150px;
+    background-color:Red;
+}
+.Slide div.Center
+{
+    float:left;
+    width:98%;
+    height:150px;
+    overflow:hidden;
+    position:relative;
+}
+.SlideContent_Out
+{
+    float:left;
+    width:5000px;
+    height:150px;
+    position:relative;
+}
+.SlideContent
+{
+    position:absolute;
+    width:auto;
+    height:150px;
+}
+.Slide_Item
+{
+    border: 2px solid #FF00FF;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    background-color: Green;
+    font-size:20px;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+

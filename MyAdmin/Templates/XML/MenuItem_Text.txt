@@ -1,0 +1,1 @@
+<MenuItem><ItemText>{0}</ItemText><ItemAction ActionType="{1}"><AfterTheClickMessage><RegularATCMessage><Content>{2}</Content>{3}</RegularATCMessage></AfterTheClickMessage></ItemAction></MenuItem>

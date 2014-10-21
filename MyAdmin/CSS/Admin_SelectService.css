@@ -1,0 +1,107 @@
+﻿.SelectService_Out
+{
+    float:left;
+    width:100%;
+    padding-bottom:3px;
+}
+.ControlName
+{
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+.ControlName input
+{
+    float:left;
+}
+.ControlName label
+{
+    float: left;
+    padding-top: 2px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #FF0000;
+}
+
+.SelectService
+{
+    float: left;
+    width: 100%;
+    overflow: auto;
+    max-height: 100px;
+    background-color: #EFEFEF;
+}
+.GroupService_Out
+{
+    float:left;
+    width:11%;
+}
+.GroupService
+{
+    float:left;
+    width:100%;   
+    padding-top:5px;
+}
+.GroupService input
+{
+    float:left;
+}
+.GroupService label
+{
+    float: left;
+    padding-top: 2px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #990000;
+}
+.Service
+{
+    float: left;
+    width: 100%; 
+    /*   
+    padding-left:2%;
+    */
+
+}
+.ServiceItem
+{
+    float:left;
+    width:100%;
+}
+.ServiceItem input
+{
+    float:left;
+}
+.ServiceItem label
+{
+    float:left;
+    padding-top:2px;
+}
+
+.ServiceItem span
+{
+    float:left;
+    padding-left:2px;
+    padding-top:3px;
+}
+.ServiceItem span img
+{
+   cursor:pointer;
+}
+.ServiceItemChild
+{
+    float:left;
+    min-width:150px;
+    display:none;
+}
+.ServiceItemChild input
+{
+    float:left;
+}
+.ServiceItemChild label
+{
+    float:left;
+    padding-top:2px;
+    color:Red;
+}

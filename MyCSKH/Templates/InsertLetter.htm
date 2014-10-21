@@ -1,0 +1,52 @@
+﻿<div class="InsertLetter">
+    <div class="InsertTitle">
+        THÊM, CHỈNH SỬA MẨU TIN
+    </div>
+    <div class="Item">
+        <span>Loại bản tin</span>
+        <select id="sel_RecordType" onchange="ChangeType();">
+            <option value="1" {0}>Bản tin text</option>
+            <option value="2" {1}>Bản tin download</option>
+        </select>
+    </div>
+    <div class="Item">
+        <span>Phương thức</span>
+        <select id="sel_Method">
+            <option value="1" {2}>smsdd</option>
+            <option value="2" {3}>sms</option>
+        </select>
+    </div>
+    <div class="Item">
+        <span>Lời dẫn:</span>
+        <input type="text" id="tbx_Introduction" maxlength="13" value="{4}"/>
+    </div>
+    <div class="Item" id="div_Content">
+        <span>Nội dung:</span>
+        <textarea id="tbx_Content" onchange="CountCharacter(this);" onkeyup=" return CountCharacter(this);">{5}</textarea>
+        <span>&nbsp;</span><label><i>Còn lại <b id="b_count"> 450 </b> (ký tự)</i></label>
+    </div>
+    <div class="Item" id="div_Keyword">
+        <span>Cú pháp</span>
+        <input type="text" id="tbx_Keyword" value="{6}"/>
+    </div>
+     <div class="Item" id="div_ServiceID">
+        <span>Đầu số</span>
+        <select id="sel_ServiceID">
+            <option value="9052" {7}>9052</option>
+            <option value="9152" {8}>9152</option>
+            <option value="9252" {9}>9252</option>
+            <option value="9352" {10}>9352</option>
+            <option value="9452" {11}>9452</option>
+            <option value="9552" {12}>9552</option>
+            <option value="9652" {13}>9652</option>
+            <option value="9752" {14}>9752</option>
+        </select>
+    </div>
+    <div class="Item" id="div_Priority">
+        <span>Độ ưu tiên</span>
+        <input type="text" id="tbx_Priority" value="{15}"/>
+    </div>
+    <div class="ItemButton">
+        <input type="button" value="Lưu" onclick="return SaveRecord(this,{16});" />
+    </div>
+</div>

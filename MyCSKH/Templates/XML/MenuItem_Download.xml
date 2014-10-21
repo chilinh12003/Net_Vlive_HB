@@ -1,0 +1,9 @@
+﻿<MenuItem>
+  <ItemText>{0}</ItemText>
+  <ItemAction ActionType="{1}">
+    <AdditionalServiceType>
+      <ServiceAddress>{2}</ServiceAddress>
+      <ServiceKey>{3}</ServiceKey>
+    </AdditionalServiceType>
+  </ItemAction>
+</MenuItem>

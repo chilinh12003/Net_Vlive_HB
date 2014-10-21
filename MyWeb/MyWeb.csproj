@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BD7ED9F-7C3C-4B29-AAA4-EB5CF55AAB4F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyWeb</RootNamespace>
+    <AssemblyName>MyWeb</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MyUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DLL Libraries\Source\MyUtility\bin\Debug\MyUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="UrlRewritingNet.UrlRewriter, Version=2.0.60829.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DLL\UrlRewritingNet.UrlRewriter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="images\design\arrow_1.png" />
+    <Content Include="images\design\arrow_2.png" />
+    <Content Include="images\design\arrow_3.png" />
+    <Content Include="images\design\arrow_4.png" />
+    <Content Include="images\design\arrow_5.png" />
+    <Content Include="images\design\auction_detail.png" />
+    <Content Include="images\design\auction_detail_r.png" />
+    <Content Include="images\design\auction_price.png" />
+    <Content Include="images\design\banner_bg.png" />
+    <Content Include="images\design\body_bg.gif" />
+    <Content Include="images\design\body_bg.png" />
+    <Content Include="images\design\body_bg_1.png" />
+    <Content Include="images\design\box_border_bg.png" />
+    <Content Include="images\design\btn_search.png" />
+    <Content Include="images\design\button_cart_l.png" />
+    <Content Include="images\design\button_cart_r.png" />
+    <Content Include="images\design\button_detail_l.png" />
+    <Content Include="images\design\button_detail_l_1.png" />
+    <Content Include="images\design\button_detail_r.png" />
+    <Content Include="images\design\button_dg_l.png" />
+    <Content Include="images\design\button_dg_r.png" />
+    <Content Include="images\design\button_login.png" />
+    <Content Include="images\design\button_register.png" />
+    <Content Include="images\design\cate_c.png" />
+    <Content Include="images\design\cate_down.png" />
+    <Content Include="images\design\cate_l.png" />
+    <Content Include="images\design\cate_r.png" />
+    <Content Include="images\design\content_bg.png" />
+    <Content Include="images\design\FaceBox_C.png" />
+    <Content Include="images\design\FaceBox_Close.png" />
+    <Content Include="images\design\Finish.png" />
+    <Content Include="images\design\footer_bg.png" />
+    <Content Include="images\design\footer_logo.png" />
+    <Content Include="images\design\f_logo.png" />
+    <Content Include="images\design\hotbox_active_l.png" />
+    <Content Include="images\design\hotbox_active_r.png" />
+    <Content Include="images\design\hotbox_c.png" />
+    <Content Include="images\design\hotbox_l.png" />
+    <Content Include="images\design\hotbox_r.png" />
+    <Content Include="images\design\login_box_c.png" />
+    <Content Include="images\design\login_box_l.png" />
+    <Content Include="images\design\login_box_r.png" />
+    <Content Include="images\design\logo.png" />
+    <Content Include="images\design\logo_dg.png" />
+    <Content Include="images\design\logo_vina.png" />
+    <Content Include="images\design\menu_active_l.png" />
+    <Content Include="images\design\menu_active_r.png" />
+    <Content Include="images\design\menu_arrow.png" />
+    <Content Include="images\design\menu_bg.png" />
+    <Content Include="images\design\menu_split.png" />
+    <Content Include="images\design\news_bg.png" />
+    <Content Include="images\design\path_bg.png" />
+    <Content Include="images\design\path_split_bg.png" />
+    <Content Include="images\design\search-box-bg.png" />
+    <Content Include="images\design\search-submit.png" />
+    <Content Include="images\design\sms_detail_bg.png" />
+    <Content Include="images\design\sms_report_arrow.png" />
+    <Content Include="images\design\sms_report_bg.png" />
+    <Content Include="images\design\sms_report_title_bg.png" />
+    <Content Include="images\design\sms_subtile_deactive_l.png" />
+    <Content Include="images\design\sms_subtile_deactive_r.png" />
+    <Content Include="images\design\sms_subtile_l.png" />
+    <Content Include="images\design\sms_subtile_r.png" />
+    <Content Include="images\design\sold.png" />
+    <Content Include="images\design\subtitle_c.png" />
+    <Content Include="images\design\subtitle_l.png" />
+    <Content Include="images\design\subtitle_r.png" />
+    <Content Include="images\design\subtitle_r_c.png" />
+    <Content Include="images\design\subtitle_r_r.png" />
+    <Content Include="images\design\subtitle_split.png" />
+    <Content Include="images\design\sub_menu_bg.png" />
+    <Content Include="images\design\tbx_search_c.png" />
+    <Content Include="images\design\tbx_search_l.png" />
+    <Content Include="images\design\text_c.png" />
+    <Content Include="images\design\text_l.png" />
+    <Content Include="images\design\text_r.png" />
+    <Content Include="images\design\timebox_1_l.png" />
+    <Content Include="images\design\timebox_1_r.png" />
+    <Content Include="images\design\timebox_2_l.png" />
+    <Content Include="images\design\timebox_2_r.png" />
+    <Content Include="images\design\timebox_l.png" />
+    <Content Include="images\design\timebox_r.png" />
+    <Content Include="images\design\top-menu-left.png" />
+    <Content Include="images\design\top-menu-right.png" />
+    <Content Include="images\design\top-more.png" />
+    <Content Include="images\design\Untitled-7.gif" />
+    <Content Include="images\design\User_Icon.png" />
+    <Content Include="images\design\winner_bg.png" />
+    <Content Include="images\Facebook_Loading.gif" />
+    <Content Include="images\FaceBox_Close.png" />
+    <Content Include="images\Frames\FaceBox_BL.png" />
+    <Content Include="images\Frames\FaceBox_BR.png" />
+    <Content Include="images\Frames\FaceBox_C.png" />
+    <Content Include="images\Frames\FaceBox_TL.png" />
+    <Content Include="images\Frames\FaceBox_TR.png" />
+    <Content Include="images\icons\Arrow_1.png" />
+    <Content Include="images\icons\Arrow_2.png" />
+    <Content Include="images\icons\Facebook_Loading.gif" />
+    <Content Include="images\icons\Info.png" />
+    <Content Include="images\icons\Refresh.png" />
+    <Content Include="images\icons\Warning.png" />
+    <Content Include="Javascript\FaceBox.js" />
+    <Content Include="Javascript\ForAll.js" />
+    <Content Include="Javascript\jquery.js" />
+    <Content Include="Javascript\Vinaphone.js" />
+    <Content Include="Style\Vlive.css" />
+    <Content Include="Style\FaceBox.css" />
+    <Content Include="Style\ForAll.css" />
+    <Content Include="Style\vinphone.css" />
+    <Content Include="Templates\Home.html" />
+    <Content Include="Templates\News\Guide.htm" />
+    <Content Include="Templates\Static\Banner.htm" />
+    <Content Include="Templates\Static\Content.htm" />
+    <Content Include="Templates\Static\Footer.htm" />
+    <Content Include="Templates\Static\Header.htm" />
+    <Content Include="Templates\Static\Menu.htm" />
+    <Content Include="Templates\Static\Path.htm" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="p\about.ashx.cs">
+      <DependentUpon>about.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="p\faq.ashx.cs">
+      <DependentUpon>faq.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="p\guide.ashx.cs">
+      <DependentUpon>guide.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="p\home.ashx.cs">
+      <DependentUpon>home.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="p\rule.ashx.cs">
+      <DependentUpon>rule.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="p\winner.ashx.cs">
+      <DependentUpon>winner.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyLoad\MyLoad.csproj">
+      <Project>{0AE860BC-DC34-4A02-9280-AEF3CA107954}</Project>
+      <Name>MyLoad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyVlive\MyVlive.csproj">
+      <Project>{034FA8CA-C9E0-40E7-B5CC-D1D15D243948}</Project>
+      <Name>MyVlive</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p\home.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p\about.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p\guide.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p\rule.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p\winner.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p\faq.ashx" />
+    <Content Include="Templates\Banner_Ringtune.swf" />
+    <Content Include="Templates\HTMLPage1.html" />
+    <Content Include="Templates\News\About.htm" />
+    <Content Include="Templates\News\FAQ.htm" />
+    <Content Include="Templates\News\Rule.htm" />
+    <Content Include="Templates\News\winner.htm" />
+    <Content Include="Templates\Product\Cate.htm" />
+    <Content Include="Templates\Product\CateRepeat.htm" />
+    <Content Include="Templates\Product\CateRepeat_1.htm" />
+    <Content Include="Templates\Product\Cate_Empty.htm" />
+    <Content Include="Templates\Product\SubMenu.htm" />
+    <Content Include="Templates\Product\SubMenu_Repeat.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50134</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50134/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

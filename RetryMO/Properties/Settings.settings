@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RetryMO.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RetryMO_WS_Game_Game" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://115.146.122.170:8691/Game.asmx</Value>
+    </Setting>
+    <Setting Name="RetryMO_WS_Ringtone_Ringtone" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://115.146.122.170:8691/Ringtone.asmx</Value>
+    </Setting>
+    <Setting Name="RetryMO_WS_Image_Image" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://115.146.122.170:8691/Image.asmx</Value>
+    </Setting>
+    <Setting Name="RetryMO_WS_Video_Video" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://115.146.122.170:8691/Video.asmx</Value>
+    </Setting>
+    <Setting Name="RetryMO_WS_TextBase_TextBase" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://115.146.122.170:8691/TextBase.asmx</Value>
+    </Setting>
+    <Setting Name="RetryMO_WS_SendMT_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://115.146.122.173:9093/AgentWS/SMSAgentWS.asmx</Value>
+    </Setting>
+    <Setting Name="RetryMO_WS_Packet_Packet" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://115.146.122.170:8691/Packet.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

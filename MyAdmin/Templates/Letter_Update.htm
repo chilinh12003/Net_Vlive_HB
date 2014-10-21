@@ -1,0 +1,30 @@
+﻿<div class="InsertLetter">
+    <div class="InsertTitle">
+        CHỈNH SỬA BẢN TIN
+    </div>
+    <div class="Item">
+        <span>Tên bản tin</span>
+        <input type="text" maxlength="84" id="tbx_LetterName_U" value="{0}" />
+    </div>
+    <div class="Item">
+        <span>Ngày phát tin</span>
+        <input type="text" id="tbx_Day_U" style="width: 100px;" value="{1}" />
+        <input type="button" value="..." style="width: 20px;" onclick="displayCalendar(document.getElementById('tbx_Day_U'),'dd/mm/yyyy',this)" />
+        <select id="sel_Hour_U">
+            {2}
+        </select>
+        <select id="sel_Minute_U">
+            {3}
+        </select>
+        <select id="sel_Second_U">
+            {4}
+        </select>
+    </div>
+    <div class="Item">
+        <span>Độ ưu tiên</span>
+        <input type="text" id="tbx_Priority_U" value="{5}" />
+    </div>
+    <div class="ItemButton">
+        <input type="button" value="Lưu" onclick="return UpdateLetter(this,{6});" />
+    </div>
+</div>
